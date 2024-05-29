@@ -1,0 +1,39 @@
+/* Normalize styles (consider using a library like Normalize.css) */
+/* ... */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Shortened font stack */
+  box-sizing: border-box;
+  line-height: 1.6; /* Example line-height for better readability */
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #dfb426; /* Example primary color link */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #b3881a; /* Example darker shade on hover */
+}
+
+/* Add media queries for responsive styles (optional) */
+/* ... */

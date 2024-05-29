@@ -1,0 +1,53 @@
+/* Use a color palette tool for a balanced scheme (example) */
+:root {
+  --primary-color: #333; /* Dark gray for text */
+  --secondary-color: #007bff; /* Blue for buttons */
+  --accent-color: #f0a500; /* Orange for highlights */
+  --background-color: #f5f5f5; /* Light gray for content area */
+}
+
+/* ... rest of your code */
+
+.navbar .nav-link {
+  color: var(--primary-color); /* Use primary color for links */
+  border: none; /* Remove border */
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  background-color: var(--accent-color); /* Use accent color on hover */
+  color: #fff; /* White text on hover */
+}
+
+.navbar .nav-link.active {
+  font-weight: bold; /* Bold text for active link */
+}
+
+.container {
+  background-color: var(--background-color); /* Use background color variable */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce shadow intensity */
+}
+
+.product-form, .product-list {
+  background-color: #fff; /* White background for product sections */
+  box-shadow: 0 4px 8px rgba(130, 130, 130, 0.3); /* Adjust shadow color and opacity */
+}
+
+.product-list li {
+  padding: 15px 20px; /* Increase padding for better spacing */
+  border-bottom: 1px solid rgba(130, 130, 130, 0.2); /* Lighter border color */
+}
+
+.product-list li h3 {
+  color: var(--primary-color); /* Use primary color for headings */
+}
+
+.product-list li p {
+  color: #333; /* Use primary color for paragraphs */
+}
+
+.product-list li:hover {
+  background-color: rgba(240, 240, 240, 0.2); /* Light background on hover */
+}

@@ -1,0 +1,24 @@
+body {
+  background-image: url('../public/pic.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white; /* For text color */
+}
+
+.contact-box {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact-box h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgb(255, 151, 81);
+}
+
+.contact-box p {
+  font-size: 1.2em;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(221, 26, 26, 0.712);
+}
